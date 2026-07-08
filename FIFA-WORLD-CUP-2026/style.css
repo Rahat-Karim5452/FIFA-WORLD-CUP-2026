@@ -8,8 +8,8 @@
     padding: 1% 4%;
 }
 .container-two{
-    padding: 80px 10%;
-    margin: 20px 0px;
+    padding: 40px 10%;
+    margin: 10px 0px;
 }
 
 /* Navbar */
@@ -122,8 +122,8 @@
     margin-bottom: 40px;
     text-align: center;
     font-size: 30px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    letter-spacing: lpx solid;
+    word-spacing: lpx solid;
 }
 .stadium{
     display: flex;
@@ -134,12 +134,12 @@
 .stadium-contents h2{
     font-size: 30px;
     margin-bottom: 12px;
-    letter-spacing: 1px;
+    letter-spacing: lpx solid;
 }
 .stadium-contents p{
     line-height: 25px;
     margin-bottom: 20px;
-    letter-spacing: 1px;
+    letter-spacing: lpx solid;
     text-align: justify;
     font-weight: 300;
 }
@@ -148,5 +148,40 @@
 }
 .host-btn{
     margin: 0px auto;
+    letter-spacing: lpx solid;
+}
+/* Table Section */
+.table-section{
+    border: 1px solid gray;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.table-heading h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: lpx solid;
+    word-spacing: lpx solid;
+}
+.table-heading p{
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+table{
+    width:100%;
+    margin:0 auto;
+    border: 1px solid black;
+    padding: 10px 8px;
+    border-collapse: collapse;
+}
+th,td{
     letter-spacing: 1px;
+    text-align: center;
+    border:1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: #A73131;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
 }
