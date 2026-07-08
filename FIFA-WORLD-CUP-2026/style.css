@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: "STIX Two Math", serif;
+
+}
+
+.container {
+    padding: 1% 4%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #E8BA2E;
+    transition: scale(0.9);
+}
+
+/* Common-btn */
+.common-btn {
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    border-radius: 10px;
+    background-color: #E8BA2E;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+
+    /* For arrow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.common-btn:hover {
+    border-color: #E8BA2E;
+    background-color: white;
+    transform: scale(0.9);
+}
+
+/* Hero */
+.banner-start {
+    position: relative;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    color: white;
+}
+
+.banner-content h2 {
+    font-size: 60px;
+    padding: 0;
+}
+
+.banner-content p {
+    width: 320px;
+    text-align: jus;
+}
+
+.banner-btn {
+    margin-top: 20px;
+}
