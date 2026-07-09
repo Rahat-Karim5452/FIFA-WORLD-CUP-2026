@@ -10,7 +10,7 @@
 
 .container-two {
   padding: 40px 10%;
-  margin: 10px 0px;
+  margin: 0px 0px;
 }
 
 /* Navbar */
@@ -300,4 +300,45 @@ th {
 .box:hover {
   transform: translateY(-12px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer section */
+footer{
+  background-color: #0a0e29;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.social-links{
+  display: flex;
+  gap: 30px;
+}
+.social-links a{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.copyright{
+  color: white;
+}
+.legal-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.legal-links a{
+  text-decoration: none;
+  color: white;
 }
